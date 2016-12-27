@@ -6,6 +6,7 @@
  * Time: 11:40
  */
 namespace app1\controller\admin;
+use app1\models\admin\Article;
 
 class index{
 
@@ -13,7 +14,7 @@ class index{
         echo "home";
     }
     public function page(){
-        echo "page";
+        Article::first();
     }
     public function view($id){
         echo "$id";
