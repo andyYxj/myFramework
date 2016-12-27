@@ -1,4 +1,10 @@
 {
   "require": {
+    "noahbuscher/macaw": "dev-master"
+  },
+  "autoload": {
+    "classmap":[
+      "app/app1/controller/admin"
+    ]
   }
 }
